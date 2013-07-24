@@ -307,6 +307,8 @@ textarea {
 
 }
 
+/* CSS for List of Levels */
+
 .reading-list-container {
     width:675px;
     padding-top: 100px;
@@ -335,6 +337,8 @@ textarea {
 .reading-list-level.selected {
     background-color:#b3d4fc;
 }
+
+/* CSS for Modifying Slider */
 
 #slider {
     position: relative;

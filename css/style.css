@@ -342,16 +342,14 @@ textarea {
 
 #slider {
     position: relative;
-    top: -31;
+    top: -31px;
     background: none;
     border: none;
     right: -6px;
-    padding-bottom: 24px;
+    height:50px;
 }
 
 #slider .ui-slider-range {
-    padding-top: 18px;
-    padding-bottom: 18px;
     position: relative;
     top: -5px;
     opacity: .3;

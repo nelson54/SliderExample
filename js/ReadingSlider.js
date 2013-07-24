@@ -30,6 +30,7 @@ var ReadingSlider = function(){
             range: true,
             min: 0,
             max:27,
+            step:25,
             change: function( event, ui ) {
                 var values = $(event.target).slider("values");
                 self.setSelection(values)

@@ -304,13 +304,13 @@ textarea {
 }
 
 .container {
-    width:1024px;
-    padding-top: 100px;
-    margin:0 auto;
+
 }
 
 .reading-list-container {
     width:623px;
+    padding-top: 100px;
+    margin:0 auto;
 }
 
 .reading-list {

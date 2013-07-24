@@ -35,7 +35,6 @@ var ReadingSlider = function(){
                 self.setSelection(values)
             }
         })
-
     }
 
     this.setSelection = function(array){

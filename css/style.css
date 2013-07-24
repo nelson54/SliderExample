@@ -332,3 +332,19 @@ textarea {
 .reading-list-level.selected {
     background-color:#b3d4fc;
 }
+
+#slider {
+    position: relative;
+    top: -18;
+}
+
+#slider .ui-slider-range {
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+#slider .ui-slider-handle {
+    width: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

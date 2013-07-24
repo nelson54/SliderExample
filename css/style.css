@@ -338,6 +338,7 @@ textarea {
     top: -31;
     background: none;
     border: none;
+    right: -6px;
 }
 
 #slider .ui-slider-range {

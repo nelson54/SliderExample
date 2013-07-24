@@ -335,12 +335,17 @@ textarea {
 
 #slider {
     position: relative;
-    top: -18;
+    top: -31;
+    background: none;
+    border: none;
 }
 
 #slider .ui-slider-range {
     padding-top: 18px;
     padding-bottom: 18px;
+    position: relative;
+    top: -5px;
+    opacity: .3;
 }
 
 #slider .ui-slider-handle {

@@ -20,7 +20,7 @@ var ReadingSlider = function(){
             var item = $(ReadingSlider.templates.readingListItem).text(val);
 
             list.append(item);
-        })
+        });
 
         container.append(list).append(slider);
 
@@ -34,7 +34,7 @@ var ReadingSlider = function(){
                 var values = $(event.target).slider("values");
                 self.setSelection(values)
             }
-        })
+        }).slider( "option", "values", [3, 15] )
     }
 
     this.setSelection = function(array){
